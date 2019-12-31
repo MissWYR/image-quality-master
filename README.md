@@ -2,7 +2,7 @@
 
 
 Firstly，wo should install "GraphicsMagick" in your system(such as windows),and add the file location to your computer path!!!
-Secondly,we need configuration python environment,python==3.7 scikit-image==0.16.2 !
+Secondly,we need configuration python environment,python==3.6 scikit-image==0.16.2 !
 
 Video quality metrics, reference implementation in python, with GPU optimizations and C versions as time permits.
 
