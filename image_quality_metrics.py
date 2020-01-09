@@ -32,7 +32,7 @@ plt.figure(figsize=(8, 8))
 
 quality=101
 
-subprocess.check_call('gm convert %s -quality %d %s'%(ref_file, quality, dist_file), shell=True)
+# subprocess.check_call('gm convert %s -quality %d %s'%(ref_file, quality, dist_file), shell=True)
 file_size = os.path.getsize(dist_file)
 
 # dist = imageio.imread(dist_file, flatten=True).astype(numpy.float32)
